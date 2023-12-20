@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9079A812B15D073002B7FFB /* App265App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A802B15D073002B7FFB /* App265App.swift */; };
+		F9079A832B15D073002B7FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A822B15D073002B7FFB /* ContentView.swift */; };
+		F9079A852B15D075002B7FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9079A842B15D075002B7FFB /* Assets.xcassets */; };
+		F9079A882B15D075002B7FFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9079A872B15D075002B7FFB /* Preview Assets.xcassets */; };
+		F9079A902B15D1CB002B7FFB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A8F2B15D1CB002B7FFB /* LoadingView.swift */; };
+		F9079A922B15D1D0002B7FFB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A912B15D1D0002B7FFB /* TabBar.swift */; };
+		F9079A9B2B15D205002B7FFB /* Reviewers_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A9A2B15D205002B7FFB /* Reviewers_1.swift */; };
+		F9079A9D2B15D208002B7FFB /* Reviewers_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A9C2B15D208002B7FFB /* Reviewers_2.swift */; };
+		F9079A9F2B15D20B002B7FFB /* Reviewers_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079A9E2B15D20B002B7FFB /* Reviewers_3.swift */; };
+		F9079AA12B15D20F002B7FFB /* Users_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AA02B15D20F002B7FFB /* Users_1.swift */; };
+		F9079AA32B15D212002B7FFB /* Users_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AA22B15D212002B7FFB /* Users_2.swift */; };
+		F9079AA52B15D216002B7FFB /* Users_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AA42B15D216002B7FFB /* Users_3.swift */; };
+		F9079AA72B15D219002B7FFB /* Users_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AA62B15D219002B7FFB /* Users_4.swift */; };
+		F9079AA92B15D409002B7FFB /* LoansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AA82B15D409002B7FFB /* LoansView.swift */; };
+		F9079AAB2B15D41C002B7FFB /* LoansViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AAA2B15D41C002B7FFB /* LoansViewModel.swift */; };
+		F9079AAE2B15D426002B7FFB /* LoansModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9079AAC2B15D426002B7FFB /* LoansModel.xcdatamodeld */; };
+		F9079AB02B15D62E002B7FFB /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AAF2B15D62E002B7FFB /* CoreData.swift */; };
+		F9079AB32B15D761002B7FFB /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AB22B15D761002B7FFB /* CalendarView.swift */; };
+		F9079AB62B15D7DC002B7FFB /* LoanAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AB52B15D7DC002B7FFB /* LoanAdd.swift */; };
+		F9079AB82B15D9DD002B7FFB /* ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AB72B15D9DD002B7FFB /* ConvertDate.swift */; };
+		F9079ABB2B15DACF002B7FFB /* LoanDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079ABA2B15DACF002B7FFB /* LoanDetail.swift */; };
+		F9079ABD2B15E0D7002B7FFB /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079ABC2B15E0D7002B7FFB /* Array.swift */; };
+		F9079ABF2B15E1A0002B7FFB /* EndEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079ABE2B15E1A0002B7FFB /* EndEdit.swift */; };
+		F9079AC22B15E254002B7FFB /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AC12B15E254002B7FFB /* StatisticsView.swift */; };
+		F9079AC52B15E32F002B7FFB /* StatisticsGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AC42B15E32F002B7FFB /* StatisticsGraph.swift */; };
+		F9079AC72B15E450002B7FFB /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AC62B15E450002B7FFB /* CalculatorView.swift */; };
+		F9079AC92B15F2B7002B7FFB /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079AC82B15F2B7002B7FFB /* CalculatorViewModel.swift */; };
+		F9079ACB2B15F4AA002B7FFB /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079ACA2B15F4AA002B7FFB /* AchievementsView.swift */; };
+		F9079ACD2B15F53A002B7FFB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9079ACC2B15F53A002B7FFB /* Launch Screen.storyboard */; };
+		F9079AD02B15F567002B7FFB /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9079ACF2B15F567002B7FFB /* ApphudSDK */; };
+		F9079AD32B15F56E002B7FFB /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = F9079AD22B15F56E002B7FFB /* Amplitude */; };
+		F9079AD82B15F587002B7FFB /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F9079AD72B15F587002B7FFB /* OneSignalFramework */; };
+		F9079ADE2B15F880002B7FFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9079ADD2B15F880002B7FFB /* GoogleService-Info.plist */; };
+		F9079B052B15F8F0002B7FFB /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F9079B042B15F8F0002B7FFB /* FirebaseRemoteConfigSwift */; };
+		F9079B0B2B15FB21002B7FFB /* Webka.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9079B0A2B15FB21002B7FFB /* Webka.swift */; };
+		F97CC2202B331BB000B794C6 /* sevulya.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97CC21F2B331BB000B794C6 /* sevulya.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9079A7D2B15D073002B7FFB /* App265.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App265.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9079A802B15D073002B7FFB /* App265App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App265App.swift; sourceTree = "<group>"; };
+		F9079A822B15D073002B7FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9079A842B15D075002B7FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9079A872B15D075002B7FFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9079A8F2B15D1CB002B7FFB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F9079A912B15D1D0002B7FFB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F9079A9A2B15D205002B7FFB /* Reviewers_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_1.swift; sourceTree = "<group>"; };
+		F9079A9C2B15D208002B7FFB /* Reviewers_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_2.swift; sourceTree = "<group>"; };
+		F9079A9E2B15D20B002B7FFB /* Reviewers_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_3.swift; sourceTree = "<group>"; };
+		F9079AA02B15D20F002B7FFB /* Users_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_1.swift; sourceTree = "<group>"; };
+		F9079AA22B15D212002B7FFB /* Users_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_2.swift; sourceTree = "<group>"; };
+		F9079AA42B15D216002B7FFB /* Users_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_3.swift; sourceTree = "<group>"; };
+		F9079AA62B15D219002B7FFB /* Users_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_4.swift; sourceTree = "<group>"; };
+		F9079AA82B15D409002B7FFB /* LoansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansView.swift; sourceTree = "<group>"; };
+		F9079AAA2B15D41C002B7FFB /* LoansViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansViewModel.swift; sourceTree = "<group>"; };
+		F9079AAD2B15D426002B7FFB /* LoansModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoansModel.xcdatamodel; sourceTree = "<group>"; };
+		F9079AAF2B15D62E002B7FFB /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		F9079AB22B15D761002B7FFB /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F9079AB52B15D7DC002B7FFB /* LoanAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanAdd.swift; sourceTree = "<group>"; };
+		F9079AB72B15D9DD002B7FFB /* ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDate.swift; sourceTree = "<group>"; };
+		F9079ABA2B15DACF002B7FFB /* LoanDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetail.swift; sourceTree = "<group>"; };
+		F9079ABC2B15E0D7002B7FFB /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		F9079ABE2B15E1A0002B7FFB /* EndEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndEdit.swift; sourceTree = "<group>"; };
+		F9079AC12B15E254002B7FFB /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		F9079AC42B15E32F002B7FFB /* StatisticsGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsGraph.swift; sourceTree = "<group>"; };
+		F9079AC62B15E450002B7FFB /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		F9079AC82B15F2B7002B7FFB /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		F9079ACA2B15F4AA002B7FFB /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		F9079ACC2B15F53A002B7FFB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F9079ADD2B15F880002B7FFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9079B0A2B15FB21002B7FFB /* Webka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webka.swift; sourceTree = "<group>"; };
+		F97CC21F2B331BB000B794C6 /* sevulya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = sevulya.swift; path = ../../../../App260/App260/project/Extensions/sevulya.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9079A7A2B15D073002B7FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079B052B15F8F0002B7FFB /* FirebaseRemoteConfigSwift in Frameworks */,
+				F9079AD82B15F587002B7FFB /* OneSignalFramework in Frameworks */,
+				F9079AD32B15F56E002B7FFB /* Amplitude in Frameworks */,
+				F9079AD02B15F567002B7FFB /* ApphudSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9079A742B15D073002B7FFB = {
+			isa = PBXGroup;
+			children = (
+				F9079A7F2B15D073002B7FFB /* App265 */,
+				F9079A7E2B15D073002B7FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9079A7E2B15D073002B7FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9079A7D2B15D073002B7FFB /* App265.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9079A7F2B15D073002B7FFB /* App265 */ = {
+			isa = PBXGroup;
+			children = (
+				F9079ADD2B15F880002B7FFB /* GoogleService-Info.plist */,
+				F9079A802B15D073002B7FFB /* App265App.swift */,
+				F9079A822B15D073002B7FFB /* ContentView.swift */,
+				F9079A8E2B15D1C5002B7FFB /* App */,
+				F9079A842B15D075002B7FFB /* Assets.xcassets */,
+				F9079A862B15D075002B7FFB /* Preview Content */,
+				F9079ACC2B15F53A002B7FFB /* Launch Screen.storyboard */,
+			);
+			path = App265;
+			sourceTree = "<group>";
+		};
+		F9079A862B15D075002B7FFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9079A872B15D075002B7FFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9079A8E2B15D1C5002B7FFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F9079A932B15D1D2002B7FFB /* Extensions */,
+				F9079A8F2B15D1CB002B7FFB /* LoadingView.swift */,
+				F9079A912B15D1D0002B7FFB /* TabBar.swift */,
+				F9079A972B15D1EF002B7FFB /* Achievements */,
+				F9079A962B15D1EA002B7FFB /* Calculator */,
+				F9079AC02B15E248002B7FFB /* Statistics */,
+				F9079A952B15D1E7002B7FFB /* Loans */,
+				F9079A942B15D1DA002B7FFB /* Splash */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F9079A932B15D1D2002B7FFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AAF2B15D62E002B7FFB /* CoreData.swift */,
+				F9079AB72B15D9DD002B7FFB /* ConvertDate.swift */,
+				F9079ABC2B15E0D7002B7FFB /* Array.swift */,
+				F9079ABE2B15E1A0002B7FFB /* EndEdit.swift */,
+				F97CC21F2B331BB000B794C6 /* sevulya.swift */,
+				F9079B0A2B15FB21002B7FFB /* Webka.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9079A942B15D1DA002B7FFB /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F9079A992B15D1FB002B7FFB /* Reviewers */,
+				F9079A982B15D1F7002B7FFB /* Users */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F9079A952B15D1E7002B7FFB /* Loans */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AB92B15DACA002B7FFB /* LoanDetail */,
+				F9079AB42B15D7D7002B7FFB /* LoanAdd */,
+				F9079AB12B15D75B002B7FFB /* CalendarView */,
+				F9079AA82B15D409002B7FFB /* LoansView.swift */,
+				F9079AAA2B15D41C002B7FFB /* LoansViewModel.swift */,
+				F9079AAC2B15D426002B7FFB /* LoansModel.xcdatamodeld */,
+			);
+			path = Loans;
+			sourceTree = "<group>";
+		};
+		F9079A962B15D1EA002B7FFB /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AC62B15E450002B7FFB /* CalculatorView.swift */,
+				F9079AC82B15F2B7002B7FFB /* CalculatorViewModel.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F9079A972B15D1EF002B7FFB /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				F9079ACA2B15F4AA002B7FFB /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		F9079A982B15D1F7002B7FFB /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AA02B15D20F002B7FFB /* Users_1.swift */,
+				F9079AA22B15D212002B7FFB /* Users_2.swift */,
+				F9079AA42B15D216002B7FFB /* Users_3.swift */,
+				F9079AA62B15D219002B7FFB /* Users_4.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F9079A992B15D1FB002B7FFB /* Reviewers */ = {
+			isa = PBXGroup;
+			children = (
+				F9079A9A2B15D205002B7FFB /* Reviewers_1.swift */,
+				F9079A9C2B15D208002B7FFB /* Reviewers_2.swift */,
+				F9079A9E2B15D20B002B7FFB /* Reviewers_3.swift */,
+			);
+			path = Reviewers;
+			sourceTree = "<group>";
+		};
+		F9079AB12B15D75B002B7FFB /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AB22B15D761002B7FFB /* CalendarView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		F9079AB42B15D7D7002B7FFB /* LoanAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AB52B15D7DC002B7FFB /* LoanAdd.swift */,
+			);
+			path = LoanAdd;
+			sourceTree = "<group>";
+		};
+		F9079AB92B15DACA002B7FFB /* LoanDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F9079ABA2B15DACF002B7FFB /* LoanDetail.swift */,
+			);
+			path = LoanDetail;
+			sourceTree = "<group>";
+		};
+		F9079AC02B15E248002B7FFB /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AC32B15E32A002B7FFB /* StatisticsGraph */,
+				F9079AC12B15E254002B7FFB /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		F9079AC32B15E32A002B7FFB /* StatisticsGraph */ = {
+			isa = PBXGroup;
+			children = (
+				F9079AC42B15E32F002B7FFB /* StatisticsGraph.swift */,
+			);
+			path = StatisticsGraph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9079A7C2B15D073002B7FFB /* App265 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9079A8B2B15D075002B7FFB /* Build configuration list for PBXNativeTarget "App265" */;
+			buildPhases = (
+				F9079A792B15D073002B7FFB /* Sources */,
+				F9079A7A2B15D073002B7FFB /* Frameworks */,
+				F9079A7B2B15D073002B7FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App265;
+			packageProductDependencies = (
+				F9079ACF2B15F567002B7FFB /* ApphudSDK */,
+				F9079AD22B15F56E002B7FFB /* Amplitude */,
+				F9079AD72B15F587002B7FFB /* OneSignalFramework */,
+				F9079B042B15F8F0002B7FFB /* FirebaseRemoteConfigSwift */,
+			);
+			productName = App265;
+			productReference = F9079A7D2B15D073002B7FFB /* App265.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9079A752B15D073002B7FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F9079A7C2B15D073002B7FFB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F9079A782B15D073002B7FFB /* Build configuration list for PBXProject "App265" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9079A742B15D073002B7FFB;
+			packageReferences = (
+				F9079ACE2B15F567002B7FFB /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				F9079AD12B15F56E002B7FFB /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+				F9079AD42B15F587002B7FFB /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				F9079ADF2B15F8F0002B7FFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F9079A7E2B15D073002B7FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9079A7C2B15D073002B7FFB /* App265 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9079A7B2B15D073002B7FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079ACD2B15F53A002B7FFB /* Launch Screen.storyboard in Resources */,
+				F9079ADE2B15F880002B7FFB /* GoogleService-Info.plist in Resources */,
+				F9079A882B15D075002B7FFB /* Preview Assets.xcassets in Resources */,
+				F9079A852B15D075002B7FFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9079A792B15D073002B7FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9079AA52B15D216002B7FFB /* Users_3.swift in Sources */,
+				F9079ABD2B15E0D7002B7FFB /* Array.swift in Sources */,
+				F9079AC52B15E32F002B7FFB /* StatisticsGraph.swift in Sources */,
+				F9079AA32B15D212002B7FFB /* Users_2.swift in Sources */,
+				F9079AC92B15F2B7002B7FFB /* CalculatorViewModel.swift in Sources */,
+				F9079AC72B15E450002B7FFB /* CalculatorView.swift in Sources */,
+				F9079AB32B15D761002B7FFB /* CalendarView.swift in Sources */,
+				F9079A9F2B15D20B002B7FFB /* Reviewers_3.swift in Sources */,
+				F9079A832B15D073002B7FFB /* ContentView.swift in Sources */,
+				F9079AB02B15D62E002B7FFB /* CoreData.swift in Sources */,
+				F9079AB62B15D7DC002B7FFB /* LoanAdd.swift in Sources */,
+				F9079AA12B15D20F002B7FFB /* Users_1.swift in Sources */,
+				F9079A9B2B15D205002B7FFB /* Reviewers_1.swift in Sources */,
+				F97CC2202B331BB000B794C6 /* sevulya.swift in Sources */,
+				F9079AA72B15D219002B7FFB /* Users_4.swift in Sources */,
+				F9079ABB2B15DACF002B7FFB /* LoanDetail.swift in Sources */,
+				F9079B0B2B15FB21002B7FFB /* Webka.swift in Sources */,
+				F9079A812B15D073002B7FFB /* App265App.swift in Sources */,
+				F9079A902B15D1CB002B7FFB /* LoadingView.swift in Sources */,
+				F9079A922B15D1D0002B7FFB /* TabBar.swift in Sources */,
+				F9079AA92B15D409002B7FFB /* LoansView.swift in Sources */,
+				F9079A9D2B15D208002B7FFB /* Reviewers_2.swift in Sources */,
+				F9079AB82B15D9DD002B7FFB /* ConvertDate.swift in Sources */,
+				F9079AAB2B15D41C002B7FFB /* LoansViewModel.swift in Sources */,
+				F9079ACB2B15F4AA002B7FFB /* AchievementsView.swift in Sources */,
+				F9079AC22B15E254002B7FFB /* StatisticsView.swift in Sources */,
+				F9079AAE2B15D426002B7FFB /* LoansModel.xcdatamodeld in Sources */,
+				F9079ABF2B15E1A0002B7FFB /* EndEdit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9079A892B15D075002B7FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9079A8A2B15D075002B7FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9079A8C2B15D075002B7FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"App265/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Option\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.App265;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9079A8D2B15D075002B7FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"App265/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Option\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = xz.App265;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9079A782B15D073002B7FFB /* Build configuration list for PBXProject "App265" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9079A892B15D075002B7FFB /* Debug */,
+				F9079A8A2B15D075002B7FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9079A8B2B15D075002B7FFB /* Build configuration list for PBXNativeTarget "App265" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9079A8C2B15D075002B7FFB /* Debug */,
+				F9079A8D2B15D075002B7FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9079ACE2B15F567002B7FFB /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		F9079AD12B15F56E002B7FFB /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F9079AD42B15F587002B7FFB /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.4;
+			};
+		};
+		F9079ADF2B15F8F0002B7FFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9079ACF2B15F567002B7FFB /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9079ACE2B15F567002B7FFB /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		F9079AD22B15F56E002B7FFB /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9079AD12B15F56E002B7FFB /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+		F9079AD72B15F587002B7FFB /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9079AD42B15F587002B7FFB /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		F9079B042B15F8F0002B7FFB /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9079ADF2B15F8F0002B7FFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F9079AAC2B15D426002B7FFB /* LoansModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9079AAD2B15D426002B7FFB /* LoansModel.xcdatamodel */,
+			);
+			currentVersion = F9079AAD2B15D426002B7FFB /* LoansModel.xcdatamodel */;
+			path = LoansModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9079A752B15D073002B7FFB /* Project object */;
+}
